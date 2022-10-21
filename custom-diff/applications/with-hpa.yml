@@ -20,7 +20,8 @@ spec:
   # Sync policy
   syncPolicy:
     syncOptions:
-      - CreateNamespace=true  
+      - CreateNamespace=true 
+      - RespectIgnoreDifferences=true 
   
   ignoreDifferences:
   - group: apps
